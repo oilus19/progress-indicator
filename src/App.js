@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Button } from './components/Button/Button';
+import ProgressIndicator from './components/ProgressIndicator';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button onClick={() => alert('i was clicked!')} > Click Me Please </Button>
+        <ProgressIndicator />
       </div>
     );
   }
